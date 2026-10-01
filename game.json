@@ -1,0 +1,36 @@
+{
+  "$schema": "https://raw.githubusercontent.com/pewplay/pewplay/main/schema/game.schema.json",
+  "title": "Memory Match",
+  "description": "Flip the cards and find all the matching pairs in as few moves as possible. A relaxing free memory game for your browser.",
+  "howToPlay": "Turn over two cards at a time. If they show the same picture they stay face up, otherwise they flip back. Remember where each picture is and clear the board with the fewest moves and the best time. Choose Easy, Normal or Hard to change the number of cards.",
+  "controls": [
+    {
+      "input": "Click / Tap",
+      "action": "Flip a card"
+    },
+    {
+      "input": "Tab + Enter",
+      "action": "Play with the keyboard"
+    },
+    {
+      "input": "R",
+      "action": "New game"
+    }
+  ],
+  "category": "Puzzle",
+  "tags": [
+    "memory",
+    "cards",
+    "pairs",
+    "brain",
+    "relax"
+  ],
+  "author": "PewPlay",
+  "playMode": "SinglePlayer",
+  "orientation": "any",
+  "featured": true,
+  "added": "2026-09-26",
+  "exclude": [
+    "docs"
+  ]
+}
